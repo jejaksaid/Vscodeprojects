@@ -58,3 +58,14 @@ function loadQuiz() {
     d_text.innerText = currentQuizData.d;
 
 }
+
+submitBtn.addEventListener('click', () => {
+    currentQuiz++;
+
+    if (currentQuiz < quizData.length) {
+        loadQuiz();
+    } else
+        alert("You finished! Get yourself an coffee!")
+
+    loadQuiz ();
+});
