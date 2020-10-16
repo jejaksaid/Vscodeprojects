@@ -47,10 +47,11 @@ ul {
 ul li {
     font-size: 1.1rem;
     margin: 1rem 0;
+    cursor: pointer;
 }
 
 button {
-    background-color: #8e44ad;
+    background-color: #0d52e7;
     border: none;
     cursor: pointer;
     color: white;
@@ -62,5 +63,5 @@ button {
 }
 
 button:hover {
-    background-color: #5b2572;
+    background-color: #27368a;
 }

@@ -1,1 +1,1 @@
-video 10 js project in 10 hours in 58'
+video 10 js project in 10 hours in 1:12'
