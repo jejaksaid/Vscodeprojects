@@ -29,6 +29,9 @@ function formatTime(time) {
     return time < 10 ? `0${time}` : time;
 }
 
+var d = new Date();
+document.getElementById("current").innerHTML = d;
+
 
 
 // initial call
